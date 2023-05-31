@@ -17,7 +17,7 @@ Each of these scrapers can be used individually by editing the `if __name__ == '
 
 In order to speed up the data extraction process, each scraper has a multi-threaded implementation of it's `scrape` function. By default the scraper will use **all** available threads on the host machine. If you would like to use fewer threads, this can be controlled using the `max_threads` argument of each scrapers constructor.
 
-Each scraper outputs a flat csv file which can then be loaded into a database or data analysis tool such as Pandas. Examples of these files are included in this repo for you to inspect. In order to keep the folder from becoming too cluttered, the data files are saved into a subfolder called **data** within the same folder as the code files, which the scraper will create on the host machine. Since it uses the built-in Python **os** module, it should work across Windows, Mac and Linux.
+Each scraper outputs a flat csv file which can then be loaded into a database or data analysis tool such as Pandas. Examples of these files are included in this repo in the **data** folder for you to inspect.
 
 ## Using the code
 
