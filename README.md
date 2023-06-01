@@ -29,4 +29,4 @@ Each scraper outputs a flat csv file which can then be loaded into a database or
 5. Edit the details in the `if __name__ == '__main__:` section of the scraper you want to use
 6. run the command `python [scraperfile].py` where [scraperfile] is replaced by the name of the scraper you want to use.
 
-When running, the scrapers will output their current status to the command line
+When running, the scrapers will output their current status to the command line.
